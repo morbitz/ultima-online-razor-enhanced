@@ -1,0 +1,1 @@
+Player.ChatParty('cure me')

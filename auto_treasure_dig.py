@@ -1,0 +1,6 @@
+Misc.SendMessage('auto dig',83)
+map = Items.FindByID(0x14EC, 0, -1)
+Misc.WaitForContext(map.Serial, 10000)
+Misc.ContextReply(map.Serial, 1)
+Misc.Pause(600)
+Target.TargetExecuteRelative(Player.Serial, 0)

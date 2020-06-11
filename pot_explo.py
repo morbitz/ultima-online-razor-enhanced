@@ -1,0 +1,6 @@
+twoh = Player.GetItemOnLayer('LeftHand')
+Player.UnEquipItemByLayer('LeftHand')
+Misc.Pause(610)
+Player.ChatSay(66, '[drink GreaterExplosionPotion')
+Misc.Pause(610)
+Player.EquipItem(twoh)

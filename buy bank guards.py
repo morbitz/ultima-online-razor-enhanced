@@ -1,0 +1,1 @@
+Player.ChatSay('vendor buy bank guards i ban thee')
